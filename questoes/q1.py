@@ -45,7 +45,7 @@ def plot_losses(losses):
     plt.ylabel('Perda')
     plt.title('Perda durante o treinamento')
     plt.grid(True)
-    plt.savefig(os.path.join(results_dir, "q2-visualizacao-de-perdas.png"))  
+    plt.savefig(os.path.join(results_dir, "q1-visualizacao-de-perdas.png"))  
     plt.show()
 
 # Função para visualizar os resultados

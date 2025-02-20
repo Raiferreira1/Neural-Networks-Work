@@ -87,7 +87,7 @@ plt.xlabel('Épocas')
 plt.ylabel('Loss de Validação')
 plt.legend()
 plt.title('Evolução da Loss na Validação')
-plt.savefig(os.path.join(results_dir), "q3-evolucao-da-loss-na-validacao.png")
+plt.savefig(os.path.join(results_dir, "q3-evolucao-da-loss-na-validacao.png"))
 plt.show()
 
 # Avaliação no conjunto de teste
