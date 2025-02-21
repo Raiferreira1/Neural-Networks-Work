@@ -49,8 +49,6 @@ def plot_losses(losses):
     plt.show()
 
 # Função para visualizar os resultados
-import matplotlib.pyplot as plt
-
 def plot_results(x, y, y_pred_pinv, y_pred_nn, train_size):
     fig, axs = plt.subplots(1, 2, figsize=(14, 6))  
 
